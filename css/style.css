@@ -27,6 +27,8 @@
 	border-radius: 4px;
   	background-color: rgb( 255, 226, 0 );
   	box-shadow: 2.19px 13.828px 5px 0px rgba( 37, 42, 48, .29 );
+    padding: 0 2px;
+    font-weight: bold;
 }
 .gold {
     color: #ffcc00;
@@ -225,6 +227,20 @@ input[type="submit"]{
 	font-size: 14px;
 	line-height: 14px;
 	color: #a6a6a6;
+}
+.right .through{
+    position: relative;
+}
+.right .through:before{
+    display: block;
+    width: 65px;
+    content: "";
+    border: 1px solid rgb( 237, 28, 36 );
+    z-index: 10;
+    transform: rotate(-23deg);
+    position: absolute;
+    top: 7px;
+    left: 8px;
 }
 section.how-work {
     color: #000;
